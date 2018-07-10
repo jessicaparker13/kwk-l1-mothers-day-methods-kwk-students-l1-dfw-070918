@@ -4,8 +4,9 @@ def mothers_day
   puts "Happy Mother's Day, Mom!"
 end 
 
-def mothers_day2("Beyonce")
-  puts "Happy Mother's Day, #{mothers_day2}!"
+name = "Beyonce"
+def mothers_day2(name = "Mom")
+  "Happy Mother's Day, #{name}!"
 end 
 
-def mothers_day3
+puts mothers_day2
